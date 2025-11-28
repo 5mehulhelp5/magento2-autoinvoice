@@ -44,8 +44,8 @@ class ProcessingRule extends Value
         TypeListInterface $cacheTypeList,
         Random $mathRandom,
         Json $serializer,
-        AbstractResource $resource = null,
-        AbstractDb $resourceCollection = null,
+        ?AbstractResource $resource = null,
+        ?AbstractDb $resourceCollection = null,
         array $data = []
     ) {
         $this->mathRandom = $mathRandom;
